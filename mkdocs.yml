@@ -1,0 +1,77 @@
+site_name: 車城藥局教育平台
+site_description: 藥師與藥助的醫藥教育訓練平台
+site_url: https://ding2tong.github.io/chechengEducationPlayform/
+repo_url: https://github.com/ding2tong/chechengEducationPlayform
+repo_name: ding2tong/chechengEducationPlayform
+
+theme:
+  name: material
+  language: zh-TW
+  custom_dir: docs/overrides
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: checheng
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: 切換為深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: 依系統設定顯示
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/checheng.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ding2tong/chechengEducationPlayform
+      name: 查看專案原始碼
+
+nav:
+  - 首頁: index.md
+  - 課程:
+      - 課程總覽: courses/index.md
+      - 高血壓完整課程:
+          - 課程介紹: courses/hypertension/index.md
+          - 血壓基礎: courses/hypertension/01-blood-pressure-basics.md
+          - 診斷與風險: courses/hypertension/02-diagnosis-and-risk.md
+          - 生活型態管理: courses/hypertension/03-lifestyle-management.md
+          - 常用藥物: courses/hypertension/04-common-medications.md
+          - 居家量測: courses/hypertension/05-home-monitoring.md
+          - 常見問答: courses/hypertension/06-faq.md
+  - 內容規範: content-standards.md
