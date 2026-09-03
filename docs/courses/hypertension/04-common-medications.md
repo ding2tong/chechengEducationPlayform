@@ -4,6 +4,13 @@ category: courses
 tags: [高血壓, 降血壓藥, 用藥衛教]
 status: draft
 author: 車城藥局教育團隊
+reviewer:
+created_at: 2026-09-03
+updated_at: 2026-09-03
+reviewed_at:
+next_review:
+evidence_level:
+references: []
 ---
 
 # 04｜常用藥物

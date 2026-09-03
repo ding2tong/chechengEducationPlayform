@@ -1,0 +1,23 @@
+categories:
+  - id: disease
+    title: 疾病知識
+  - id: medicine
+    title: 藥品資訊
+  - id: otc
+    title: OTC 指示藥
+  - id: supplement
+    title: 保健食品
+  - id: medical-device
+    title: 醫療器材
+  - id: ingredient
+    title: 成分資料
+  - id: symptom
+    title: 常見症狀
+  - id: health-education
+    title: 衛教文章
+  - id: faq
+    title: 常見問答
+  - id: courses
+    title: 教育訓練課程
+  - id: products
+    title: 產品介紹

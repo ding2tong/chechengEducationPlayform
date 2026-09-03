@@ -2,14 +2,15 @@
 title: 高血壓完整課程
 category: courses
 tags: [高血壓, 心血管, 門市教育]
-status: published
+status: draft
 author: 車城藥局教育團隊
-reviewer: 待專業審查
-created_at: 2026-08-31
-updated_at: 2026-08-31
+reviewer:
+created_at: 2026-09-03
+updated_at: 2026-09-03
 reviewed_at:
 next_review:
-evidence_level: 待補充
+evidence_level:
+references: []
 ---
 
 # 高血壓完整課程
